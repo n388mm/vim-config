@@ -1,4 +1,4 @@
-# Derek Wyatt's Vim Configuration
+# Personal Fork of Derek Wyatt's Vim Configuration
 
 Yup... it's a vim configuration.
 
@@ -11,3 +11,8 @@ To install it, do the following:
 * Start Vim
 
 Occassionally, the bundles may need updating.  To do this, `cd ~/.vim && ./update`
+
+Changes made:
+
+* Added Dash.vim, Funcoo.vim, and Vim-Airline to bundle script.
+* Tweaks to vimrc for iTerm2 colors.
