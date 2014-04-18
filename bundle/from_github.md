@@ -4,10 +4,12 @@
 * **BufKill**:        `git clone https://github.com/vim-scripts/bufkill.vim.git vim-bufkill`
 * **Completion**:     `git clone https://github.com/MarcWeber/vim-addon-completion.git vim-completion`
 * **CtrlP**:          `git clone https://github.com/kien/ctrlp.vim.git vim-ctrlp`
+* **Dash**:       `git clone https://github.com/rizzatti/dash.vim.git vim-dash`
 * **DfrankUtil**:     `git clone https://github.com/vim-scripts/DfrankUtil.git vim-dfrankutil`
 * **EasyMotion**:     `git clone https://github.com/vim-scripts/EasyMotion.git vim-easymotion`
 * **FSwitch**:        `git clone https://github.com/derekwyatt/vim-fswitch.git vim-fswitch`
 * **Fugitive**:       `git clone https://github.com/tpope/vim-fugitive.git vim-fugitive`
+* **Funcoo**:         `git clone https://github.com/rizzatti/funcoo.vim.git vim-funcoo`
 * **GNUPG**:          `git clone https://github.com/vim-scripts/gnupg.vim.git vim-gnupg`
 * **Gundo**:          `git clone https://github.com/sjl/gundo.vim.git vim-gundo`
 * **Indexer**:        `git clone https://github.com/vim-scripts/indexer.tar.gz vim-indexer`
@@ -20,8 +22,8 @@
 * **Solarized**:      `git clone https://github.com/altercation/vim-colors-solarized.git vim-solarized`
 * **Surround**:       `git clone https://github.com/tpope/vim-surround.git vim-surround`
 * **Tabular**:        `git clone https://github.com/godlygeek/tabular.git vim-tabular`
-* **TwitVim**:        `git clone https://github.com/vim-scripts/TwitVim.git vim-twitvim`
 * **Unimpaired**:     `git clone https://github.com/tpope/vim-unimpaired.git vim-unimpaired`
+* **Vim-Airline**:    `git clone https://github.com/bling/vim-airline.git vim-airline`
 * **VimPrj**:         `git clone https://github.com/vim-scripts/vimprj.git vim-vimprj`
 * **VisIncr**:        `git clone https://github.com/vim-scripts/VisIncr.git vim-visincr`
 * **XPTemplate**:     `git clone https://github.com/drmingdrmer/xptemplate.git vim-xptemplate`

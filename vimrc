@@ -446,27 +446,6 @@ nmap <silent> ,oJ :FSSplitBelow<CR>
 let g:xptemplate_brace_complete = ''
 
 "-----------------------------------------------------------------------------
-" TwitVim settings
-"-----------------------------------------------------------------------------
-let twitvim_enable_perl = 1
-let twitvim_browser_cmd = 'firefox'
-nmap ,tw :FriendsTwitter<cr>
-nmap ,tm :UserTwitter<cr>
-nmap ,tM :MentionsTwitter<cr>
-function! TwitVimMappings()
-    nmap <buffer> U :exe ":UnfollowTwitter " . expand("<cword>")<cr>
-    nmap <buffer> F :exe ":FollowTwitter " . expand("<cword>")<cr>
-    nmap <buffer> 7 :BackTwitter<cr>
-    nmap <buffer> 8 :ForwardTwitter<cr>
-    nmap <buffer> 1 :PreviousTwitter<cr>
-    nmap <buffer> 2 :NextTwitter<cr>
-endfunction
-augroup derek_twitvim
-    au!
-    au FileType twitvim call TwitVimMappings()
-augroup END
-
-"-----------------------------------------------------------------------------
 " VimSokoban settings
 "-----------------------------------------------------------------------------
 " Sokoban stuff
@@ -795,7 +774,6 @@ iab teh        the
 "-----------------------------------------------------------------------------
 if has("gui_running")
   exe "set guifont=" . g:main_font
-  colorscheme xoria256
   if !exists("g:vimrcloaded")
     winpos 0 0
     if !&diff
@@ -805,5 +783,9 @@ if has("gui_running")
     endif
     let g:vimrcloaded = 1
   endif
+else
+  set t_Co=256
 endif
+colorscheme xoria256
+
 :nohls
