@@ -1,6 +1,7 @@
 ensime
 vim-actionscript
 vim-ag
+vim-airline
 vim-async
 vim-autotags
 vim-blogit
@@ -9,6 +10,7 @@ vim-command-t
 vim-completion
 vim-conque
 vim-ctrlp
+vim-dash
 vim-dfrankutil
 vim-easyalign
 vim-easymotion
@@ -16,6 +18,7 @@ vim-ensime
 vim-forms
 vim-fswitch
 vim-fugitive
+vim-funcoo
 vim-fuzzyfinder
 vim-gnupg
 vim-gundo
